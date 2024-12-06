@@ -1,0 +1,95 @@
+/* Estilos personalizados para el sitio */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f8f9fa;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #d9534f;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header img {
+    width: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+main h2, main h3, main h4 {
+    color: #d9534f;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Estilo para el aside */
+aside {
+    border-right: 2px solid #d9534f;
+    padding-right: 15px;
+    margin-right: 15px;
+}
+
+/* Estilos personalizados para el menú */
+aside .menu {
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+aside .menu li {
+    list-style: none;
+    text-align: center;
+    border: 1px solid #d9534f;
+    padding: 10px;
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fuente decorativa como ejemplo */
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+aside .menu li:not(:last-child) {
+    border-bottom: none;
+}
+
+aside .menu li:hover {
+    background-color: #f8d7da; /* Color de fondo en hover */
+    transform: scale(1.05); /* Aumenta ligeramente al pasar el mouse */
+    cursor: pointer;
+}
+
+/* Imagen de la animación */
+aside img {
+    margin-top: 15px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Imagen e ingredientes alineados */
+.ingredients-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.ingredients-container > div {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.ingredients-container > div:last-child {
+    margin-right: 0;
+}
